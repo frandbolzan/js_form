@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Francisco Bolzan - Web Developer</title>
+	<link rel="stylesheet" href="CSS/estilos.css"/>
+	<link rel="stylesheet" href="CSS/animate.css"/>
+	<link rel="shortcut icon" type="image/jpg" href="Img/favicon.png">
+</head>
+<body>
+	<div id="particles-js">
+		<form onsubmit="{myForm(event)}">
+			<div id="formulario">
+			<label for="nombre">Nombre</label>
+			<input type="text" id="nombre" name="nombre" placeholder="Juan">
+			<label for="apellido">Apellido</label>
+			<input type="text" id="apellido" name="apellido" placeholder="Pérez">
+			<label for="edad">Edad</label>
+			<input type="number" id="edad" name="edad" placeholder="0">
+			<label for="mail">Email</label>
+			<input type="text" id="email" name="email" placeholder="juanperez97@gmail.com">
+			<label for="comentario">Comentarios</label>
+			<textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Tu mensaje"></textarea>
+			<label><input type="checkbox" id="checkbox" value="true">Acepto todas las condiciones</label>
+			<input type="submit" id="submit" value="Enviar">
+			</div>
+		</form>
+	</div>
+
+	<!--JAVASCRIPTS-->
+	<script src="Js/particles.js"></script>
+	<script src="Js/app.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="Js/alto.js"></script>
+	<script src="Js/form.js"></script>
+</body>
+</html>
